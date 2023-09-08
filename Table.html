@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Table</title>
+    <style>
+      *{
+        background-color: aquamarine;
+      }
+      table {
+        text-align: center;
+        border: 10px solid blueviolet;
+        border-collapse: collapse;
+        font-style: bolder ;background-color: aquamarine;
+      }
+      tr,
+      td,
+      th {
+        border: 4px solid plum;
+        padding: 10px;
+        background-color: rgb(19, 17, 17);
+        color:rgb(55, 207, 207);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Time Table</h1>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="7">Time table</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="7">hours</td>
+          <td>Monday</td>
+          <td>Tuesday</td>
+          <td>Wednesday</td>
+          <td>Thursday</td>
+          <td>Friday</td>
+          <td>Saturday</td>
+        </tr>
+        <tr>
+          <td>Compiler Design</td>
+          <td>Compiler Design</td>
+          <td>Compiler Design</td>
+          <td>Compiler Design</td>
+          <td>Compiler Design</td>
+          <td>Compiler Design</td>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>Operating System</td>
+          <td>Operating System</td>
+          <td>Operating System</td>
+          <td>Operating System</td>
+          <td>Operating System</td>
+        </tr>
+        <tr>
+          <td colspan="7">lunch</td>
+        </tr>
+        <tr>
+          <td>Web Technology</td>
+          <td>Web Technology</td>
+          <td>Web Technology</td>
+          <td>Web Technology</td>
+          <td>Web Technology</td>
+          <td rowspan="2">Games</td>
+        </tr>
+        <tr>
+          <td>Human Values</td>
+          <td>Human Values</td>
+          <td>Human Values</td>
+          <td>Human Values</td>
+          <td>Human Values</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
